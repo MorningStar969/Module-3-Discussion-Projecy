@@ -22,7 +22,7 @@ public class TopLevel
     public static void Foo1() { Console.WriteLine (TopLevel.x); }
     
     public static int Foo2() {
-      TopLevel.x = 9;
+      TopLevel.x = 18;
       return TopLevel.x; }
   }
 }
